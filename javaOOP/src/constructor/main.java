@@ -5,8 +5,8 @@ public class main{
     
     Car car = new Car("Chevrolet","Camaro","black",2021);
 
-    System.out.println("this is my"+car.brand+"car");
-    System.out.println("the model is"+car.model);
-    System.out.println(car.color);
+    System.out.println("this is my "+car.brand+" car");
+    System.out.println("the model is "+car.model);
+    System.out.println("the color is "+car.color);
   }
 }
