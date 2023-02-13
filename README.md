@@ -1,2 +1,2 @@
-# java-brocode
+# java
 learning java with BroCode channel
