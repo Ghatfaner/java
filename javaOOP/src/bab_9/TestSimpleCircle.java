@@ -20,6 +20,8 @@ public class TestSimpleCircle {
 
     SimpleCircle circle3 = new SimpleCircle(radiusess[2]);
     System.out.println("The area of the circle of radius = "+circle3.radius + " is "+circle3.getArea());
+
+    circle.close();
   }
 }
 
@@ -47,6 +49,4 @@ class SimpleCircle {
   void setRadius(double newRadius) {
     radius = newRadius;
   }
-
-
 }
