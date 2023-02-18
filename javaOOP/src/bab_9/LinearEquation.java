@@ -66,7 +66,7 @@ public class LinearEquation {
   public double getY() {
     return dPembilangY/dPenyebut;
   }
-  public void canNotBeSolved() {
+  private void canNotBeSolved() {
     if(dPenyebut == 0)
       bSolvabilty = false;
     else

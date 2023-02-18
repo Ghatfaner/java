@@ -25,15 +25,6 @@ public class TestLinearEquation {
     System.out.println("Nilai Y = (AF-CE)/(AD-BC) = " + intValue.getY());
     System.out.println("Apakah dapat diselesaikan? " + intValue.isSolvable());
     
-    // System.out.println();
-    // System.out.println(intValue2.getA());
-    // System.out.println(intValue2.getB());
-    // System.out.println(intValue2.getC());
-    // System.out.println(intValue2.getD());
-    // System.out.println(intValue2.getE());
-    // System.out.println(intValue2.getF());
-    // System.out.println(intValue2.intPenyebut);
-    // System.out.println(intValue2.getX());
-    // System.out.println(intValue2.isSolvable());
+    insert.close();
   }
 }
