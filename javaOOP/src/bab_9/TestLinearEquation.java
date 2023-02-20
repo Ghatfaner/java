@@ -23,7 +23,11 @@ public class TestLinearEquation {
     System.out.println("Penyebut = (AD - BC) = " + intValue.getPenyebut());
     System.out.println("Nilai X = (ED-BF)/(AD-BC) = " + intValue.getX());
     System.out.println("Nilai Y = (AF-CE)/(AD-BC) = " + intValue.getY());
-    System.out.println("Apakah dapat diselesaikan? " + intValue.isSolvable());
+    // System.out.println("Apakah dapat diselesaikan? " + intValue.isSolvable());
+    if(intValue.isSolvable() == false)
+      System.out.println("The equation has no solution");
+    else
+      System.out.println("The equation has solution");
     
     insert.close();
   }

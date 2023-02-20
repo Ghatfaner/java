@@ -66,14 +66,14 @@ public class LinearEquation {
   public double getY() {
     return dPembilangY/dPenyebut;
   }
+  public double getPenyebut() {
+    return dPenyebut;
+  }
   private void canNotBeSolved() {
     if(dPenyebut == 0)
       bSolvabilty = false;
     else
       bSolvabilty = true;
-  }
-  public double getPenyebut() {
-    return dPenyebut;
   }
   public boolean isSolvable() {
     return bSolvabilty;
