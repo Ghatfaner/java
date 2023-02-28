@@ -1,5 +1,5 @@
 package bab_9;
-import java.util.*;
+import java.util.Scanner;
 public class TestLinearEquation {
   public static void main(String[] args) {
     Scanner insert = new Scanner(System.in);
