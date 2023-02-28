@@ -23,9 +23,9 @@ public class TestLinearEquation {
     System.out.println("Nilai Y = (AF-CE)/(AD-BC) = " + dValue.getY());
     // System.out.println("Apakah dapat diselesaikan? " + dValue.isSolvable());
     if (dValue.isSolvable())
-      System.out.println("The equation has no solution");
-    else
       System.out.println("The equation has solution");
+    else
+      System.out.println("The equation has no solution");
 
     insert.close();
   }
