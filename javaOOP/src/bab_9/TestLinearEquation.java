@@ -26,7 +26,6 @@ public class TestLinearEquation {
       System.out.println("The equation has solution");
     else
       System.out.println("The equation has no solution");
-
     insert.close();
   }
 }

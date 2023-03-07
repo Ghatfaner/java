@@ -7,3 +7,4 @@ public class Snack {
     this.name = name;
   }
 }
+

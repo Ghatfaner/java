@@ -2,13 +2,9 @@ package arrayObject;
 
 public class main {
   public static void main(String[] args) {
-    
-    int[] number = new int[3];
-    char[] alphabet = new char[4];
-    String[] text = new String[5];
-    
     // Snack[] market = new Snack[4];
     // add elements one by one
+
     Snack market1 = new Snack("Taro"); 
     Snack market2 = new Snack("Qtela"); 
     Snack market3 = new Snack("Cheetos"); 
@@ -21,5 +17,9 @@ public class main {
     System.out.println(market[1].name);
     System.out.println(market[2].name);
     System.out.println(market[3].name);
+
+    
+    System.out.println();
+    
   }
 }
