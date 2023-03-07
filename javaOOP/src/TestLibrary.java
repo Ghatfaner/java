@@ -47,7 +47,6 @@ public class TestLibrary {
     }
 
     //PHILOSOPHY BOOK CATEGORY
-
     System.out.print("\nTotal of Philosophy books category: ");
     intTotalBookEachCategory = insert.nextInt();
     while (intTotalBookEachCategory < 5) {
@@ -84,7 +83,6 @@ public class TestLibrary {
     }
 
     //HISTORY BOOK CATEGORY
-
     System.out.print("\nTotal of History books category: ");
     intTotalBookEachCategory = insert.nextInt();
     while (intTotalBookEachCategory < 5) {
@@ -121,7 +119,6 @@ public class TestLibrary {
     }
 
     //PSCHYCOLOGY BOOK CATEGORY
-
     System.out.print("\nTotal of Pschycology books category: ");
     intTotalBookEachCategory = insert.nextInt();
     while (intTotalBookEachCategory < 5) {
@@ -159,7 +156,6 @@ public class TestLibrary {
 
 
     //RELIGION BOOK CATEGORY
-
     System.out.print("\nTotal of Religion books category: ");
     intTotalBookEachCategory = insert.nextInt();
     while (intTotalBookEachCategory < 5) {
@@ -196,7 +192,6 @@ public class TestLibrary {
     }
 
     //POLITICAL BOOK CATEGORY
-
     System.out.print("\nTotal of Political books category: ");
     intTotalBookEachCategory = insert.nextInt();
     while (intTotalBookEachCategory < 5) {
@@ -233,7 +228,6 @@ public class TestLibrary {
     }
 
     //FICTION BOOK CATEGORY
-
     System.out.print("\nTotal of Fiction books category: ");
     intTotalBookEachCategory = insert.nextInt();
     while (intTotalBookEachCategory < 5) {
@@ -334,7 +328,7 @@ public class TestLibrary {
       System.out.println();
       Fiction[i].getBookInformation();
     }
-
+    insert.close();
   }
 }
 
