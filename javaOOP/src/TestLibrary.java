@@ -11,11 +11,11 @@ public class TestLibrary {
     //TECHNOL0GY BOOK CATEGORY
     System.out.println();
 
-    System.out.print("Total of Technology books category: ");
+    System.out.print("Total of Technology books category\t: ");
     int intTotalBookEachCategory = insert.nextInt();
     while (intTotalBookEachCategory < 5) {
       System.out.println("You must add minimum 5 books each category!");
-      System.out.print("Total of Technology books category: ");
+      System.out.print("Total of Technology books category\t: ");
       intTotalBookEachCategory = insert.nextInt();
     }
     insert.nextLine();
@@ -24,16 +24,16 @@ public class TestLibrary {
 
     Library[] Technology = new Library[intTotalBookEachCategory];
     for (int i = 0; i < Technology.length; i++) {
-      System.out.printf("\nTitle of technology book no.%d: ", (i + 1));
+      System.out.printf("\nTitle of technology book no.%d\t: ", (i + 1));
       String TechBookTitle = insert.nextLine();
 
-      System.out.printf("Published year of technology book no.%d: ", (i + 1));
+      System.out.printf("Published year of technology book no.%d\t: ", (i + 1));
       int YearTechBook = insert.nextInt();
 
-      System.out.printf("ID of technology book no.%d: ", (i + 1));
+      System.out.printf("ID of technology book no.%d\t: ", (i + 1));
       int IDBookTech = insert.nextInt();
 
-      System.out.printf("Total author of technology book no.%d: ", (i + 1));
+      System.out.printf("Total author of technology book no.%d\t: ", (i + 1));
       int TotalAuthorTechBook = insert.nextInt();
 
       insert.nextLine();
@@ -41,17 +41,17 @@ public class TestLibrary {
           new String[TotalAuthorTechBook]);
 
       for (int j = 0; j < TotalAuthorTechBook; j++) {
-        System.out.printf("\nName of author no.%d of book no.%d: ", (j + 1), (i + 1));
+        System.out.printf("\nName of author no.%d of book no.%d\t: ", (j + 1), (i + 1));
         Technology[i].szNameAuthor[j] = insert.nextLine();
       }
     }
 
     //PHILOSOPHY BOOK CATEGORY
-    System.out.print("\nTotal of Philosophy books category: ");
+    System.out.print("\nTotal of Philosophy books category\t: ");
     intTotalBookEachCategory = insert.nextInt();
     while (intTotalBookEachCategory < 5) {
       System.out.println("You must add minimum 5 books each category!");
-      System.out.print("Total of Philosophy books category: ");
+      System.out.print("Total of Philosophy books category\t: ");
       intTotalBookEachCategory = insert.nextInt();
     }
     insert.nextLine();
@@ -60,16 +60,16 @@ public class TestLibrary {
 
     Library[] Philosophy = new Library[intTotalBookEachCategory];
     for (int i = 0; i < Philosophy.length; i++) {
-      System.out.printf("\nTitle of Philosophy book no.%d: ", (i + 1));
+      System.out.printf("\nTitle of Philosophy book no.%d\t: ", (i + 1));
       String PhiBookTitle = insert.nextLine();
 
-      System.out.printf("Published year of Philosophy book no.%d: ", (i + 1));
+      System.out.printf("Published year of Philosophy book no.%d\t: ", (i + 1));
       int YearPhiBook = insert.nextInt();
 
-      System.out.printf("ID of Philosophy book no.%d: ", (i + 1));
+      System.out.printf("ID of Philosophy book no.%d\t: ", (i + 1));
       int IDBookPhi = insert.nextInt();
 
-      System.out.printf("Total author of Philosophy book no.%d: ", (i + 1));
+      System.out.printf("Total author of Philosophy book no.%d\t: ", (i + 1));
       int TotalAuthorPhiBook = insert.nextInt();
 
       insert.nextLine();
@@ -77,17 +77,17 @@ public class TestLibrary {
           new String[TotalAuthorPhiBook]);
 
       for (int j = 0; j < TotalAuthorPhiBook; j++) {
-        System.out.printf("\nName of author no.%d of book no.%d: ", (j + 1), (i + 1));
+        System.out.printf("\nName of author no.%d of book no.%d\t: ", (j + 1), (i + 1));
         Philosophy[i].szNameAuthor[j] = insert.nextLine();
       }
     }
 
     //HISTORY BOOK CATEGORY
-    System.out.print("\nTotal of History books category: ");
+    System.out.print("\nTotal of History books category\t: ");
     intTotalBookEachCategory = insert.nextInt();
     while (intTotalBookEachCategory < 5) {
       System.out.println("You must add minimum 5 books each category!");
-      System.out.print("Total of History books category: ");
+      System.out.print("Total of History books category\t: ");
       intTotalBookEachCategory = insert.nextInt();
     }
     insert.nextLine();
@@ -96,16 +96,16 @@ public class TestLibrary {
 
     Library[] History = new Library[intTotalBookEachCategory];
     for (int i = 0; i < History.length; i++) {
-      System.out.printf("\nTitle of History book no.%d: ", (i + 1));
+      System.out.printf("\nTitle of History book no.%d\t: ", (i + 1));
       String HistoryBookTitle = insert.nextLine();
 
-      System.out.printf("Published year of History book no.%d: ", (i + 1));
+      System.out.printf("Published year of History book no.%d\t: ", (i + 1));
       int YearHistoryBook = insert.nextInt();
 
-      System.out.printf("ID of History book no.%d: ", (i + 1));
+      System.out.printf("ID of History book no.%d\t: ", (i + 1));
       int IDBookHistory = insert.nextInt();
 
-      System.out.printf("Total author of History book no.%d: ", (i + 1));
+      System.out.printf("Total author of History book no.%d\t: ", (i + 1));
       int TotalAuthorHistoryBook = insert.nextInt();
 
       insert.nextLine();
@@ -113,17 +113,17 @@ public class TestLibrary {
           new String[TotalAuthorHistoryBook]);
 
       for (int j = 0; j < TotalAuthorHistoryBook; j++) {
-        System.out.printf("\nName of author no.%d of book no.%d: ", (j + 1), (i + 1));
+        System.out.printf("\nName of author no.%d of book no.%d\t: ", (j + 1), (i + 1));
         History[i].szNameAuthor[j] = insert.nextLine();
       }
     }
 
     //PSCHYCOLOGY BOOK CATEGORY
-    System.out.print("\nTotal of Pschycology books category: ");
+    System.out.print("\nTotal of Pschycology books category\t: ");
     intTotalBookEachCategory = insert.nextInt();
     while (intTotalBookEachCategory < 5) {
       System.out.println("You must add minimum 5 books each category!");
-      System.out.print("Total of Pschycology books category: ");
+      System.out.print("Total of Pschycology books category\t: ");
       intTotalBookEachCategory = insert.nextInt();
     }
     insert.nextLine();
@@ -132,16 +132,16 @@ public class TestLibrary {
 
     Library[] Pschycology = new Library[intTotalBookEachCategory];
     for (int i = 0; i < Pschycology.length; i++) {
-      System.out.printf("\nTitle of Pschycology book no.%d: ", (i + 1));
+      System.out.printf("\nTitle of Pschycology book no.%d\t: ", (i + 1));
       String PschycologyBookTitle = insert.nextLine();
 
-      System.out.printf("Published year of Pschycology book no.%d: ", (i + 1));
+      System.out.printf("Published year of Pschycology book no.%d\t: ", (i + 1));
       int YearPschycologyBook = insert.nextInt();
 
-      System.out.printf("ID of Pschycology book no.%d: ", (i + 1));
+      System.out.printf("ID of Pschycology book no.%d\t: ", (i + 1));
       int IDBookPschycology = insert.nextInt();
 
-      System.out.printf("Total author of Pschycology book no.%d: ", (i + 1));
+      System.out.printf("Total author of Pschycology book no.%d\t: ", (i + 1));
       int TotalAuthorPschycologyBook = insert.nextInt();
 
       insert.nextLine();
@@ -149,18 +149,18 @@ public class TestLibrary {
           new String[TotalAuthorPschycologyBook]);
 
       for (int j = 0; j < TotalAuthorPschycologyBook; j++) {
-        System.out.printf("\nName of author no.%d of book no.%d: ", (j + 1), (i + 1));
+        System.out.printf("\nName of author no.%d of book no.%d\t: ", (j + 1), (i + 1));
         Pschycology[i].szNameAuthor[j] = insert.nextLine();
       }
     }
 
 
     //RELIGION BOOK CATEGORY
-    System.out.print("\nTotal of Religion books category: ");
+    System.out.print("\nTotal of Religion books category\t: ");
     intTotalBookEachCategory = insert.nextInt();
     while (intTotalBookEachCategory < 5) {
       System.out.println("You must add minimum 5 books each category!");
-      System.out.print("Total of Religion books category: ");
+      System.out.print("Total of Religion books category\t: ");
       intTotalBookEachCategory = insert.nextInt();
     }
     insert.nextLine();
@@ -169,16 +169,16 @@ public class TestLibrary {
 
     Library[] Religion = new Library[intTotalBookEachCategory];
     for (int i = 0; i < Religion.length; i++) {
-      System.out.printf("\nTitle of Religion book no.%d: ", (i + 1));
+      System.out.printf("\nTitle of Religion book no.%d\t: ", (i + 1));
       String ReligionBookTitle = insert.nextLine();
 
-      System.out.printf("Published year of Religion book no.%d: ", (i + 1));
+      System.out.printf("Published year of Religion book no.%d\t: ", (i + 1));
       int YearReligionBook = insert.nextInt();
 
-      System.out.printf("ID of Religion book no.%d: ", (i + 1));
+      System.out.printf("ID of Religion book no.%d\t: ", (i + 1));
       int IDBookReligion = insert.nextInt();
 
-      System.out.printf("Total author of Religion book no.%d: ", (i + 1));
+      System.out.printf("Total author of Religion book no.%d\t: ", (i + 1));
       int TotalAuthorReligionBook = insert.nextInt();
 
       insert.nextLine();
@@ -186,17 +186,17 @@ public class TestLibrary {
           new String[TotalAuthorReligionBook]);
 
       for (int j = 0; j < TotalAuthorReligionBook; j++) {
-        System.out.printf("\nName of author no.%d of book no.%d: ", (j + 1), (i + 1));
+        System.out.printf("\nName of author no.%d of book no.%d\t: ", (j + 1), (i + 1));
         Religion[i].szNameAuthor[j] = insert.nextLine();
       }
     }
 
     //POLITICAL BOOK CATEGORY
-    System.out.print("\nTotal of Political books category: ");
+    System.out.print("\nTotal of Political books category\t: ");
     intTotalBookEachCategory = insert.nextInt();
     while (intTotalBookEachCategory < 5) {
       System.out.println("You must add minimum 5 books each category!");
-      System.out.print("Total of Political books category: ");
+      System.out.print("Total of Political books category\t: ");
       intTotalBookEachCategory = insert.nextInt();
     }
     insert.nextLine();
@@ -205,16 +205,16 @@ public class TestLibrary {
 
     Library[] Political = new Library[intTotalBookEachCategory];
     for (int i = 0; i < Political.length; i++) {
-      System.out.printf("\nTitle of Political book no.%d: ", (i + 1));
+      System.out.printf("\nTitle of Political book no.%d\t: ", (i + 1));
       String PoliticalBookTitle = insert.nextLine();
 
-      System.out.printf("Published year of Political book no.%d: ", (i + 1));
+      System.out.printf("Published year of Political book no.%d\t: ", (i + 1));
       int YearPoliticalBook = insert.nextInt();
 
-      System.out.printf("ID of Political book no.%d: ", (i + 1));
+      System.out.printf("ID of Political book no.%d\t: ", (i + 1));
       int IDBookPolitical = insert.nextInt();
 
-      System.out.printf("Total author of Political book no.%d: ", (i + 1));
+      System.out.printf("Total author of Political book no.%d\t: ", (i + 1));
       int TotalAuthorPoliticalBook = insert.nextInt();
 
       insert.nextLine();
@@ -222,17 +222,17 @@ public class TestLibrary {
           new String[TotalAuthorPoliticalBook]);
 
       for (int j = 0; j < TotalAuthorPoliticalBook; j++) {
-        System.out.printf("\nName of author no.%d of book no.%d: ", (j + 1), (i + 1));
+        System.out.printf("\nName of author no.%d of book no.%d\t: ", (j + 1), (i + 1));
         Political[i].szNameAuthor[j] = insert.nextLine();
       }
     }
 
     //FICTION BOOK CATEGORY
-    System.out.print("\nTotal of Fiction books category: ");
+    System.out.print("\nTotal of Fiction books category\t: ");
     intTotalBookEachCategory = insert.nextInt();
     while (intTotalBookEachCategory < 5) {
       System.out.println("You must add minimum 5 books each category!");
-      System.out.print("Total of Fiction books category: ");
+      System.out.print("Total of Fiction books category\t: ");
       intTotalBookEachCategory = insert.nextInt();
     }
     insert.nextLine();
@@ -241,16 +241,16 @@ public class TestLibrary {
 
     Library[] Fiction = new Library[intTotalBookEachCategory];
     for (int i = 0; i < Fiction.length; i++) {
-      System.out.printf("\nTitle of Fiction book no.%d: ", (i + 1));
+      System.out.printf("\nTitle of Fiction book no.%d\t: ", (i + 1));
       String FictionBookTitle = insert.nextLine();
 
-      System.out.printf("Published year of Fiction book no.%d: ", (i + 1));
+      System.out.printf("Published year of Fiction book no.%d\t: ", (i + 1));
       int YearFictionBook = insert.nextInt();
 
-      System.out.printf("ID of Fiction book no.%d: ", (i + 1));
+      System.out.printf("ID of Fiction book no.%d\t: ", (i + 1));
       int IDBookFiction = insert.nextInt();
 
-      System.out.printf("Total author of Fiction book no.%d: ", (i + 1));
+      System.out.printf("Total author of Fiction book no.%d\t: ", (i + 1));
       int TotalAuthorFictionBook = insert.nextInt();
 
       insert.nextLine();
@@ -258,7 +258,7 @@ public class TestLibrary {
           new String[TotalAuthorFictionBook]);
 
       for (int j = 0; j < TotalAuthorFictionBook; j++) {
-        System.out.printf("\nName of author no.%d of book no.%d: ", (j + 1), (i + 1));
+        System.out.printf("\nName of author no.%d of book no.%d\t: ", (j + 1), (i + 1));
         Fiction[i].szNameAuthor[j] = insert.nextLine();
       }
     }
@@ -354,13 +354,13 @@ class Library {
   }
 
   public void getBookInformation() {
-    System.out.printf("Book title: %s\n", szTitleBook);
+    System.out.printf("\tBook title\t: %s\n", szTitleBook);
 
-    System.out.printf("Published year: %d\n", intYear);
+    System.out.printf("\tPublished year\t: %d\n", intYear);
 
-    System.out.printf("Book ID: %d\n", intIDBook);
+    System.out.printf("\tBook ID\t: %d\n", intIDBook);
 
-    System.out.print("Name of the Author(s): ");
+    System.out.print("\tName of the Author(s)\t: ");
     for (int i = 0; i < this.intTotalAuthor; i++) {
       if (i == this.intTotalAuthor - 1)
         System.out.printf(this.szNameAuthor[i]);
