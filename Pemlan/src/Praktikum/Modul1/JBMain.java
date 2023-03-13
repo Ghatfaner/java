@@ -1,4 +1,4 @@
-package Praktikum;
+package Praktikum.Modul1;
 import java.util.Scanner;
 public class JBMain {
     public static void main(String[] args) {

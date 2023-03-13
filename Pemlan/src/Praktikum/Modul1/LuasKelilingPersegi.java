@@ -1,4 +1,4 @@
-package Praktikum;
+package Praktikum.Modul1;
 
 public class LuasKelilingPersegi {
   
