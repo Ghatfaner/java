@@ -12,10 +12,3 @@ public class Divisible5or6 {
     }
   }
 }
-
-class test {
-  public static void main(String[] args) {
-    Divisible5or6 divisible = new Divisible5or6(Long.MAX_VALUE, Long.MAX_VALUE + 1, 0);
-    System.out.println(divisible);
-  }
-}
