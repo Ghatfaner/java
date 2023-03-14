@@ -7,7 +7,7 @@ public class Circle2D {
   private double dRadius;
   private double dArea;
   private double dPerimeter;
-  
+
   private Circle2D() {
     this(0, 0, 1);
   }
@@ -30,6 +30,18 @@ public class Circle2D {
     return dPerimeter;
   }
 
+  public double getX() {
+    return dX;
+  }
+
+  public double getY() {
+    return dY;
+  }
+
+  public double getRadius() {
+    return dRadius;
+  }
+
   public double getArea() {
     return dArea;
   }
@@ -38,7 +50,7 @@ public class Circle2D {
     return dPerimeter;
   }
 
-  public boolean bContains(double dX, double dY) {
+  public boolean bContainsDot(double dX, double dY) {
     return Math.sqrt((Math.pow(dX - this.dX, 2)) + (Math.pow(dY - this.dY, 2))) < dRadius;
   }
 
